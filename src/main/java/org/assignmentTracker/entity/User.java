@@ -1,7 +1,12 @@
 package org.assignmentTracker.entity;
 
 import java.util.Date;
-
+/*
+@author Byron Cloete
+StudNo: 214189872
+Date: 29 June 2020
+Desc: Base User class using builder
+ */
 public class User {
 
     private int id;

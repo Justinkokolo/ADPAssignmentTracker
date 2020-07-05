@@ -19,11 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Group.java" afterDir="false" />
+    <list default="true" id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="TaskFactory Completed">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Poll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Poll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Group$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Group$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Poll$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Poll$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Poll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Poll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +40,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1dfeBUCITbBCuxjorAjE7JG7imA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,6 +59,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,6 +71,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.assignmentTracker.factoryTest" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -85,7 +95,16 @@
       <workItem from="1593338658633" duration="1982000" />
       <workItem from="1593340704491" duration="1695000" />
       <workItem from="1593343821062" duration="1208000" />
+      <workItem from="1593947988205" duration="1021000" />
     </task>
+    <task id="LOCAL-00001" summary="TaskFactory Completed">
+      <created>1593892671195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593892671195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,16 +123,25 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TaskFactory Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="TaskFactory Completed" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1593345559482">
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1593891989437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1593891989437" />
     <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593345559482" />
     <state x="729" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1592826828451" />
-    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593338785990">
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593948564842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593338785990" />
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593948564842" />
+    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593948005551">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593948005551" />
     <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1593293549121" />
     <state width="1397" height="178" key="GridCell.Tab.0.bottom" timestamp="1592823543215">
       <screen x="1920" y="0" width="1440" height="860" />
@@ -135,9 +163,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593116224927" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1593343824358">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593892688230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593343824358" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1593892688230" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1593947988950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593947988950" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593892713745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1593892713745" />
+    <state x="454" y="66" width="469" height="595" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593948567178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="66" width="469" height="595" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1593948567178" />
   </component>
 </project>

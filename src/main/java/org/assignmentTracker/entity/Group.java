@@ -53,6 +53,10 @@ public class Group {
             return this;
         }
 
+        public Group build(){
+
+            return new Group(this);}
+
     }
 
 
