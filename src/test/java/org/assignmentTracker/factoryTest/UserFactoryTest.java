@@ -22,6 +22,6 @@ public class UserFactoryTest {
         Date date = new Date();
         User user = UserFactory.createUser("Byron", "Cloete", "wordpass", "byroncloete7@gmail.com", date);
 
-        Assert.assertEquals(user, user);
+        Assert.assertTrue(user instanceof User);
     }
 }

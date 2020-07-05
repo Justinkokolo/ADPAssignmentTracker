@@ -1,5 +1,12 @@
 package org.assignmentTracker.entity;
 
+
+/**
+ * @author Claude De-Tchambila
+ * student number: 217035027
+ * Desc: Entity/Vote object for vote
+ * Date: 5 July 2020
+ */
 public class Vote {
 
     //Variables

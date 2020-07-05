@@ -18,4 +18,16 @@ public class Helper {
         return (long) ThreadLocalRandom.current().nextInt(min, max + 1);
     }
 
+    public static int generateAssignmentId() {
+        int min = 100000000;
+        int max = 999999999;
+        return ThreadLocalRandom.current().nextInt(min, max + 1);
+    }
+
+    public static int generateVoteId() {
+        int min = 100000000;
+        int max = 999999999;
+        return ThreadLocalRandom.current().nextInt(min, max + 1);
+    }
+
 }

@@ -3,6 +3,12 @@ package org.assignmentTracker.entity;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author Claude De-Tchambila
+ * student number: 217035027
+ * Desc: Entity/Assignment object for assignment
+ * Date: 5 July 2020
+ */
 public class Assignment {
 
     private int id;
@@ -53,8 +59,17 @@ public class Assignment {
         private List<Member> members;
         private User creator;
 
-        public Builder(User creator) {
-            this.creator = creator; // this is important so that no assignment can be created without a creator
+        public Builder() {
+        }
+
+        public Builder setId(int id) {
+            this.id = id;
+            return this;
+        }
+
+        public Builder setCreator(User creator) {
+            this.creator = creator;
+            return this;
         }
 
         public Builder setName(String name) {
@@ -84,6 +99,7 @@ public class Assignment {
 
         public Assignment build() {
             Assignment assignment = new Assignment();
+            assignment.id = this.id;
             assignment.name = this.name;
             assignment.subject = this.subject;
             assignment.dateAssigned = this.dateAssigned;

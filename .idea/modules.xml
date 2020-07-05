@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ADPAssignmentTracker.iml" filepath="$PROJECT_DIR$/.idea/ADPAssignmentTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/AssignmentTracker.iml" filepath="$PROJECT_DIR$/AssignmentTracker.iml" />
     </modules>
   </component>
