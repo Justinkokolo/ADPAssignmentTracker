@@ -13,9 +13,6 @@ import org.assignmentTracker.util.Helper;
  */
 public class VoteFactory {
 
-    private int id;
-    private User voter;
-
     public static Vote createVote(User user) {
         int id = Helper.generateVoteId();
 
