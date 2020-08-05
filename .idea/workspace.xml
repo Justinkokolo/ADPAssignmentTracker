@@ -20,30 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="TaskFactory Completed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/AssignmentFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/VoteFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/factory/AssignmentFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/factory/VoteFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/ADPAssignmentTracker.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/assignmentTracker/factoryTest/AssignmentFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/assignmentTracker/factoryTest/VoteFactoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/Assignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/AssignmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/AssignmentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/VoteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/VoteFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/util/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/util/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/genericTest/HelperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/genericTest/HelperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Assignment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Assignment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Assignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Assignment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Vote$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Vote$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Vote.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/entity/Vote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/assignmentTracker/util/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/assignmentTracker/util/Helper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/assignmentTracker/genericTest/HelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/assignmentTracker/genericTest/HelperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dfeBUCITbBCuxjorAjE7JG7imA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -157,6 +145,7 @@
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
@@ -184,6 +173,7 @@
       <workItem from="1593340704491" duration="1695000" />
       <workItem from="1593343821062" duration="1208000" />
       <workItem from="1593947988205" duration="1021000" />
+      <workItem from="1596623444152" duration="485000" />
     </task>
     <task id="LOCAL-00001" summary="TaskFactory Completed">
       <created>1593892671195</created>
@@ -196,7 +186,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -230,25 +220,25 @@
     </state>
     <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593948005551" />
     <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1593293549121" />
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1593979756753">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1593983064470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593979756753" />
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593983064470" />
     <state width="1397" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592823543215" />
-    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1593979756752">
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1593983064469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593979756752" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593983064469" />
     <state width="1397" height="178" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592823543215" />
-    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1593979756752">
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1593983064469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593979756752" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593983064469" />
     <state width="1397" height="178" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592823543215" />
-    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1593979756753">
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1593983064469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593979756753" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593983064469" />
     <state width="1397" height="178" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592823543215" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1593971813051">
       <screen x="0" y="0" width="1366" height="728" />
