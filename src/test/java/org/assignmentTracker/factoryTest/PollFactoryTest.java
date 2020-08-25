@@ -28,7 +28,7 @@ public class PollFactoryTest {
     @Test
     public void createPoll() {
 
-        User user = createUser("Sinovuyo","May","******","Sinovuyofoji28@gmail.com",new Date());
+        User user = createUser("Sinovuyo","May","******","Sinovuyofoji28@gmail.com");
         //did not create choice and member because they both require a list in their entities
         Poll poll = new PollFactory().createPoll(null,user,null,"Yes/No");
 
