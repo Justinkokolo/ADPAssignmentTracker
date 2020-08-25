@@ -1,5 +1,13 @@
 package org.assignmentTracker.entity;
 
+/**
+ * @author  @JustinKokolo
+ * Student Number: 218044194
+ * Desc: Test class for Lecture
+ * Date: 05 July 2020
+ */
+
+
 public class Member {
 
     String id , assignment_id ;
