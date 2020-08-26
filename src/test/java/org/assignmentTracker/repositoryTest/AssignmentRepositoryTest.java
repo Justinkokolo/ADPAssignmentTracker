@@ -9,6 +9,7 @@ import org.assignmentTracker.factory.UserFactory;
 import org.assignmentTracker.repositoryTest.impl.AssignmentRepository;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
+import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
 import java.util.Date;
@@ -26,18 +27,21 @@ public class AssignmentRepositoryTest extends TestCase {
             UserFactory.createUser("John", "Doe", "joh#pass1", "john@email.com")
     );
 
-    public void a_create() {
+    @Test
+    public void test_a_create() {
         Assignment assignmentCreated = repository.create(assignment);
         Assert.assertEquals(assignmentCreated.getId(), assignment.getId());
         System.out.println("Created: " + assignmentCreated);
     }
 
-    public void b_read() {
+    @Test
+    public void test_b_read() {
         Assignment assignmentRead = repository.read(assignment.getId());
         System.out.println("Read: " + assignmentRead);
     }
 
-    public void c_update() {
+    @Test
+    public void test_c_update() {
         User user = UserFactory.createUser("Karen", "Lee", "joh#pass1", "john@email.com");
         Assignment assignmentUpdate = new Assignment.Builder().copy(assignment).setName("Assignment 5 Repository Pattern").build();
         assignmentUpdate = repository.update(assignmentUpdate);
@@ -45,11 +49,13 @@ public class AssignmentRepositoryTest extends TestCase {
         System.out.println("Updated: " + assignmentUpdate);
     }
 
-    public void d_getAll() {
+    @Test
+    public void test_d_getAll() {
         System.out.println("Get all: " + repository.getAll());
     }
 
-    public void e_Delete() {
+    @Test
+    public void test_e_Delete() {
         boolean isAssignmentDeleted = repository.delete(assignment.getId());
         Assert.assertTrue(isAssignmentDeleted);
     }
