@@ -1,7 +1,7 @@
-package org.assignmentTracker.repository.generic;
+package org.assignmentTracker.repository.user;
 
 import org.assignmentTracker.entity.User;
-import org.assignmentTracker.repository.generic.IRepository;
+import org.assignmentTracker.repository.IRepository;
 
 import java.util.Set;
 

@@ -2,8 +2,8 @@ package org.assignmentTracker.repositoryTest;
 
 import org.assignmentTracker.entity.User;
 import org.assignmentTracker.factory.UserFactory;
-import org.assignmentTracker.repository.generic.UserRepository;
-import org.assignmentTracker.repository.impl.UserRepositoryImpl;
+import org.assignmentTracker.repository.user.UserRepository;
+import org.assignmentTracker.repository.user.impl.UserRepositoryImpl;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.Test;

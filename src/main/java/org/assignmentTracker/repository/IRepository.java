@@ -1,5 +1,4 @@
-package org.assignmentTracker.repository.generic;
-
+package org.assignmentTracker.repository;
 
 public interface IRepository<T, ID> {
 
