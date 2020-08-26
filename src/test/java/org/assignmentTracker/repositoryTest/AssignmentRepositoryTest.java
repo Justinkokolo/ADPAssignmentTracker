@@ -1,4 +1,4 @@
-package org.assignmentTracker.repository.assignment.impl;
+package org.assignmentTracker.repositoryTest;
 
 import junit.framework.TestCase;
 import org.assignmentTracker.entity.Assignment;
@@ -6,6 +6,7 @@ import org.assignmentTracker.entity.User;
 import org.assignmentTracker.factory.AssignmentFactory;
 import org.assignmentTracker.factory.SubjectFactory;
 import org.assignmentTracker.factory.UserFactory;
+import org.assignmentTracker.repositoryTest.impl.AssignmentRepository;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.runners.MethodSorters;
@@ -22,8 +23,7 @@ public class AssignmentRepositoryTest extends TestCase {
             new Date(45569),
             null,
             null,
-            UserFactory.createUser("John", "Doe", "joh#pass1", "john@email.com",
-                    new Date(2546))
+            UserFactory.createUser("John", "Doe", "joh#pass1", "john@email.com")
     );
 
     public void a_create() {
@@ -38,8 +38,7 @@ public class AssignmentRepositoryTest extends TestCase {
     }
 
     public void c_update() {
-        User user = UserFactory.createUser("Karen", "Lee", "joh#pass1", "john@email.com",
-                new Date(2546));
+        User user = UserFactory.createUser("Karen", "Lee", "joh#pass1", "john@email.com");
         Assignment assignmentUpdate = new Assignment.Builder().copy(assignment).setName("Assignment 5 Repository Pattern").build();
         assignmentUpdate = repository.update(assignmentUpdate);
 

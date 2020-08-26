@@ -27,7 +27,7 @@ public class NoteFactoryTest {
     public void createNote() {
         Date dateCreated = new Date();
         Date date= new Date();
-        User creator = UserFactory.createUser("Byron", "Cloete", "wordpass", "byroncloete7@gmail.com", date);
+        User creator = UserFactory.createUser("Byron", "Cloete", "wordpass", "byroncloete7@gmail.com");
 
         Note note = NoteFactory.createNote("Chapter 1", "Summary_01",creator, dateCreated);
         Note note1 = NoteFactory.createNote("Chapter 1", "Summary_02",creator ,dateCreated);

@@ -1,9 +1,7 @@
-package org.assignmentTracker.repository.assignment.impl;
+package org.assignmentTracker.repositoryTest.impl;
 
 import org.assignmentTracker.entity.Assignment;
-import org.assignmentTracker.entity.Vote;
 import org.assignmentTracker.repository.assignment.IAssignmentRepository;
-import org.assignmentTracker.repository.vote.impl.VoteRepository;
 
 import java.util.HashSet;
 import java.util.Set;
