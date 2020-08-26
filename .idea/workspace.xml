@@ -1,181 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="TaskFactory Completed">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/repository/generic/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/repository/generic/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/repositoryTest/UserRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ADPAssignmentTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADPAssignmentTracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_112.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/AssignmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/AssignmentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/VoteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/VoteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssignmentTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AssignmentTracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/assignmentTracker/factory/UserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/AdminFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/AdminFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/AssignmentFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/AssignmentFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/NoteFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/NoteFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/PollFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/PollFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/UserFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/UserFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/VoteFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/assignmentTracker/factoryTest/VoteFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="1dfeBUCITbBCuxjorAjE7JG7imA" />
+  <component name="ProjectId" id="1gbeMq7jdOTwM2UUKDfXDwY3vUB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.assignmentTracker.factoryTest" />
-      <recent name="org.assignmentTracker.factory" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+      <command value="mvn deploy" />
+      <command value="mvn install" />
+      <command value="mvn package" />
+    </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserFactoryTest.createUser">
-    <configuration name="AssignmentFactoryTest.createAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ADPAssignmentTracker" />
+  <component name="RunManager" selected="JUnit.UserRepositoryImplTest">
+    <configuration name="UserRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentTracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.assignmentTracker.factoryTest.*" />
+          <option name="PATTERN" value="org.assignmentTracker.repositoryTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.assignmentTracker.factoryTest" />
-      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.factoryTest.AssignmentFactoryTest" />
-      <option name="METHOD_NAME" value="createAssignment" />
+      <option name="PACKAGE_NAME" value="org.assignmentTracker.repositoryTest" />
+      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.repositoryTest.UserRepositoryImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryImplTest.b_read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.assignmentTracker.repositoryTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.assignmentTracker.repositoryTest" />
+      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.repositoryTest.UserRepositoryImplTest" />
+      <option name="METHOD_NAME" value="b_read" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelperTest.generateAssignmentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ADPAssignmentTracker" />
+    <configuration name="UserRepositoryImplTest.d_getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentTracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.assignmentTracker.genericTest.*" />
+          <option name="PATTERN" value="org.assignmentTracker.repositoryTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.assignmentTracker.genericTest" />
-      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.genericTest.HelperTest" />
-      <option name="METHOD_NAME" value="generateAssignmentId" />
+      <option name="PACKAGE_NAME" value="org.assignmentTracker.repositoryTest" />
+      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.repositoryTest.UserRepositoryImplTest" />
+      <option name="METHOD_NAME" value="d_getAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelperTest.generateVoteId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ADPAssignmentTracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.assignmentTracker.genericTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.assignmentTracker.genericTest" />
-      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.genericTest.HelperTest" />
-      <option name="METHOD_NAME" value="generateVoteId" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserFactoryTest.createUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ADPAssignmentTracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.assignmentTracker.factoryTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.assignmentTracker.factoryTest" />
-      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.factoryTest.UserFactoryTest" />
-      <option name="METHOD_NAME" value="createUser" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoteFactoryTest.createVote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ADPAssignmentTracker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.assignmentTracker.factoryTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.assignmentTracker.factoryTest" />
-      <option name="MAIN_CLASS_NAME" value="org.assignmentTracker.factoryTest.VoteFactoryTest" />
-      <option name="METHOD_NAME" value="createVote" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserFactoryTest.createUser" />
-        <item itemvalue="JUnit.HelperTest.generateVoteId" />
-        <item itemvalue="JUnit.HelperTest.generateAssignmentId" />
-        <item itemvalue="JUnit.VoteFactoryTest.createVote" />
-        <item itemvalue="JUnit.AssignmentFactoryTest.createAssignment" />
+        <item itemvalue="JUnit.UserRepositoryImplTest" />
+        <item itemvalue="JUnit.UserRepositoryImplTest.d_getAll" />
+        <item itemvalue="JUnit.UserRepositoryImplTest.b_read" />
       </list>
     </recent_temporary>
   </component>
@@ -184,112 +175,67 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="" />
-      <created>1592820438161</created>
+      <changelist id="08285282-5ae3-432e-a3ad-cb0acf9d4aa6" name="Default Changelist" comment="TaskFactory Completed" />
+      <created>1598387673339</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592820438161</updated>
-      <workItem from="1593115701589" duration="1081000" />
-      <workItem from="1593287935733" duration="2345000" />
-      <workItem from="1593338658633" duration="1982000" />
-      <workItem from="1593340704491" duration="1695000" />
-      <workItem from="1593343821062" duration="1208000" />
-      <workItem from="1593947988205" duration="1021000" />
-      <workItem from="1596623444152" duration="868000" />
+      <updated>1598387673339</updated>
     </task>
-    <task id="LOCAL-00001" summary="TaskFactory Completed">
-      <created>1593892671195</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1593892671195</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="TaskFactory Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="TaskFactory Completed" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1593891989437">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1593891989437" />
-    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593345559482" />
-    <state x="729" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1592826828451" />
-    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593948564842">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593948564842" />
-    <state x="746" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593982153829">
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1598387973093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="531" y="259" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1593948005551" />
-    <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1593293549121" />
-<<<<<<< HEAD
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1593983064470">
-=======
-    <state x="746" y="370" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1593982153829" />
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1593979756753">
->>>>>>> 60c475e40055269b37a436ec7cb5a71411b64880
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598387973093" />
+    <state x="502" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598387910256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="502" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598387910255" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1598389191008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598389191008" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1598389191008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598389191008" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1598389191007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598389191007" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1598389191008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598389191008" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598388651089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598388651089" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1598388651089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598388651089" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1598388651089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598388651089" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1598388651089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598388651089" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1598365141014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593983064470" />
-    <state width="1397" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592823543215" />
-    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1593983064469">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598365141014" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1598388984755">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593983064469" />
-    <state width="1397" height="178" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592823543215" />
-    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1593983064469">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593983064469" />
-    <state width="1397" height="178" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592823543215" />
-    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1593983064469">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593983064469" />
-    <state width="1397" height="178" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592823543215" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1593971813051">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593971813051" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1593892688230">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1593892688230" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1593947988950">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593947988950" />
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593892713745">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1593892713745" />
-    <state x="454" y="66" width="469" height="595" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593979448296">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="454" y="66" width="469" height="595" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1593979448296" />
-    <state x="4" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593974996927">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="4" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593974996927" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1598388984755" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ADPAssignmentTracker$UserRepositoryImplTest.ic" NAME="UserRepositoryImplTest Coverage Results" MODIFIED="1598388381960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.assignmentTracker.repositoryTest.*</FILTER>
+    </SUITE>
   </component>
 </project>

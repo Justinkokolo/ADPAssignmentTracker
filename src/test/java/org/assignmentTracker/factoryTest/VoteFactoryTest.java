@@ -16,8 +16,7 @@ public class VoteFactoryTest {
 
     @Test
     public void createVote() {
-        User user = UserFactory.createUser("William", "King", "passWill123", "williamK@cput.ac.za",
-                new Date(4554564));
+        User user = UserFactory.createUser("William", "King", "passWill123", "williamK@cput.ac.za");
 
         Vote vote = VoteFactory.createVote(user);
 
