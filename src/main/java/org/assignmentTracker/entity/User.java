@@ -112,6 +112,17 @@ public class User {
 
         public User build(){return new User(this);}
 
+        public User.Builder copy(User user) {
+            this.id = user.id;
+            this.name = user.name;
+            this.surname = user.surname;
+            this.studNo = user.studNo;
+            this.password = user.password;
+            this.email = user.email;
+            this.joinDate = user.joinDate;
+            return this;
+        }
+
     }
 
 }

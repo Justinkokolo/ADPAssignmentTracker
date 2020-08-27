@@ -22,8 +22,7 @@ public class AssignmentFactoryTest {
 
         List<Admin> admins = new ArrayList<>();
         List<Member> members = new ArrayList<>();
-        User user = UserFactory.createUser("William", "King", "passWill123", "williamK@cput.ac.za",
-                new Date(4554564));
+        User user = UserFactory.createUser("William", "King", "passWill123", "williamK@cput.ac.za");
 
         Assignment assignment = AssignmentFactory.createAssignment("ADP 372S Domain-Driven Design", subject,
                 new Date(4599564), admins, members, user);

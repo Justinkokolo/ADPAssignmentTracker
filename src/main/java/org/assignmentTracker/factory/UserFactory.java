@@ -14,9 +14,10 @@ Desc: Test for User Factory
 
 public class UserFactory {
 
-    public static User createUser(String name, String surname, String password, String email, Date date){
+    public static User createUser(String name, String surname, String password, String email){
         int userID = Helper.generateID();
         long studNo = Helper.generateStudNum();
+        Date date = new Date();
         User user = new User.Builder().
                 setID(userID).
                 setName(name).
